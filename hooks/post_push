@@ -2,8 +2,6 @@
 
 set -e
 
-IMAGE_NAME="haxeflixel/gmantaos:4.6.0"
-
 # Parse image name for repo name
 tagStart=$(expr index "$IMAGE_NAME" :)
 repoName=${IMAGE_NAME:0:tagStart-1}
