@@ -1,4 +1,4 @@
-FROM gmantaos/haxeflixel:4.6.0
+FROM gmantaos/haxeflixel:4.6.3
 
 LABEL maintainer="gmantaos@gmail.com"
 
